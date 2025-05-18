@@ -7,7 +7,7 @@ const SectionTwo = () => {
   return (
     <div className='w-full h-auto'>
       <div className='md:hidden block pt-20'>
-        <div className='flex items-center justify-center w-[80%] h-full mx-auto '>
+        <div className='flex items-center justify-center w-[90%] h-full mx-auto '>
           <div className='bg-[#323A1C] p-3 rounded-l-full rounded-r-full rounded-b-none border-2 border-[#fffaf0] w-fit '>
             <div
               className='p-3 rounded-l-full rounded-r-full rounded-b-none 

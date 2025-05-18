@@ -12,7 +12,7 @@ const SectionTwo = () => {
             <div
               className='p-3 rounded-l-full rounded-r-full rounded-b-none 
               border border-[#ffffff33] backdrop-blur-lg bg-[#ffffff33] 
-              shadow-lg shadow-[#00000010] flex flex-col items-center justify-center gap-4 pt-10 px-8 text-white'
+              shadow-lg shadow-[#00000010] flex flex-col items-center justify-center gap-4 pt-10 md:px-8 px-2 text-white'
             >
               {/* Your content here */}
               <h1>Packages</h1>

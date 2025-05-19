@@ -56,7 +56,7 @@ const SectionOne = () => {
                 <p>Winter Wellness Escape</p>
                 <img src={glassroom1} alt='glassroom1' />
                 <div className='flex flex-row gap-4 items-center justify-center'>
-                  <p className='text-lg'>View Detail</p>
+                  <p className='md:text-[18px] text-[12px]'>View Detail</p>
                   <Button>View Packages</Button>
                 </div>
                 <div className='flex flex-row items-center justify-center gap-1 mt-3'>

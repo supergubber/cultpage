@@ -11,7 +11,11 @@ const SectionNine = () => {
       }}
     >
       <div>
-        <img src={SectionTenLogo} alt='SectionTenLogo' />
+        <img
+          src={SectionTenLogo}
+          alt='SectionTenLogo'
+          className='md:w-full w-[120px]'
+        />
       </div>
       <h1 className='md:text-7xl text-4xl font-serif font-semibold text-white text-center'>
         Ready to Begin Your Journey?
@@ -25,7 +29,9 @@ const SectionNine = () => {
           <Button>Book a Cottage</Button>
         </div>
         <div className='border-2 border-[#E5DBC7] p-1 rounded-full cursor-pointer'>
-          <p className='px-6 py-2 rounded-full text-white'>View Packages</p>
+          <p className='px-6 py-2 rounded-full text-white md:text-[18px] text-[12px]'>
+            View Packages
+          </p>
         </div>
       </div>
     </div>

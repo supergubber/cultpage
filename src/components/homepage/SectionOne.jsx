@@ -21,7 +21,7 @@ const SectionOne = () => {
         <div className='md:w-[50%] w-full h-[550px] items-center justify-center flex'>
           <div className='w-[90%] mx-auto flex flex-col gap-7 text-white'>
             <div>
-              <h1 className='text-7xl font-mono'>
+              <h1 className='text-7xl font-["Eternalo"]'>
                 Stay <br />
                 Reflect
                 <br />
@@ -30,9 +30,10 @@ const SectionOne = () => {
               {/* <h1 className='text-7xl'>Reflect </h1> */}
               {/* <h1 className='text-7xl'>Connect.</h1> */}
             </div>
-            <p className='text-4xl'>
+            <p className='text-4xl font-["Spectral"]'>
               Your Eco-Luxury Escape in the Heart of the Western Ghats
             </p>
+
             <div className='w-fit '>
               <Button>View Cottages</Button>
             </div>

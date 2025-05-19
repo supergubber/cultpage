@@ -61,10 +61,10 @@ const SectionTwo = () => {
         </div>
         <div className='md:w-[55%] mx-auto w-full md:p-0 px-10 py-10 flex items-center justify-start'>
           <div className='md:w-[80%] w-full flex flex-col gap-6 pt-20'>
-            <h1 className='font-semibold font-[arial] text-5xl'>
+            <h1 className='font-semibold font-emilys text-6xl'>
               About Aranyaban
             </h1>
-            <p className='font-serif font-stretch-125% md:leading-8 md:tracking-wide text-md'>
+            <p className='font-["Spectral"] font-stretch-125% md:leading-8 md:tracking-wide md:text-lg text-md'>
               Imagine a retreat where nature and luxury exist in perfect
               harmony. Aranyaban, nestled in the serene Patan region of Satara,
               offers an eco-luxury experience that brings you close to nature

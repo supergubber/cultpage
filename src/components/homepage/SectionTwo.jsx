@@ -14,7 +14,6 @@ const SectionTwo = () => {
               border border-[#ffffff33] backdrop-blur-lg bg-[#ffffff33] 
               shadow-lg shadow-[#00000010] flex flex-col items-center justify-center gap-4 pt-10 md:px-8 px-2 text-white'
             >
-              {/* Your content here */}
               <h1>Packages</h1>
               <img src={bothSizeArrow} alt='bothsizearrow' />
               <p>Nov, 2025 - Mar, 2026</p>
@@ -54,7 +53,7 @@ const SectionTwo = () => {
             <img
               src={sectiontwoimg2}
               alt='sectiontwoimg2'
-              className='absolute md:top-22 md:-left-8 top-10 -left-10'
+              className='absolute md:top-22 md:-left-8 top-10 -left-8 md:w-full w-[90px]'
             />
           </div>
         </div>

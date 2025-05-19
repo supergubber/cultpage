@@ -53,7 +53,7 @@ const SectionTwo = () => {
             <img
               src={sectiontwoimg2}
               alt='sectiontwoimg2'
-              className='absolute md:top-22 md:-left-8 top-10 -left-8 md:w-full w-[90px]'
+              className='absolute md:top-22 md:-left-12 top-10 -left-8 w-[35%]'
             />
           </div>
         </div>

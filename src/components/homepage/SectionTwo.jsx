@@ -17,7 +17,9 @@ const SectionTwo = () => {
               <h1>Packages</h1>
               <img src={bothSizeArrow} alt='bothsizearrow' />
               <p>Nov, 2025 - Mar, 2026</p>
-              <p>Winter Wellness Escape</p>
+              <p className='md:text-xl text-lg font-bold font-serif'>
+                Winter Wellness Escape
+              </p>
               <img src={glassroom1} alt='glassroom1' />
               <div className='flex flex-row gap-4 items-center justify-center'>
                 <p>View Detail</p>

@@ -6,7 +6,6 @@ import glassroom1 from '../../assets/glassroom1.png'
 const SectionOne = () => {
   return (
     <div className='relative w-full h-[550px] bg-amber-200 overflow-hidden'>
-      {/* Video Background */}
       <video
         autoPlay
         loop
@@ -18,9 +17,7 @@ const SectionOne = () => {
         Your browser does not support the video tag.
       </video>
 
-      {/* Optional Content Overlay */}
       <div className='relative z-10 flex md:flex-row flex-col items-center justify-center h-full bg-[rgba(0,0,0,0.8)]'>
-        {/* Add your content here */}
         <div className='md:w-[50%] w-full h-[550px] items-center justify-center flex'>
           <div className='w-[90%] mx-auto flex flex-col gap-7 text-white'>
             <div>
@@ -49,11 +46,12 @@ const SectionOne = () => {
               border border-[#ffffff33] backdrop-blur-lg bg-[#ffffff33] 
               shadow-lg shadow-[#00000010] flex flex-col items-center justify-center gap-4 pt-10 px-8 text-white'
               >
-                {/* Your content here */}
                 <h1>Packages</h1>
                 <img src={bothSizeArrow} alt='bothsizearrow' />
                 <p>Nov, 2025 - Mar, 2026</p>
-                <p>Winter Wellness Escape</p>
+                <p className='text-xl font-bold font-serif'>
+                  Winter Wellness Escape
+                </p>
                 <img src={glassroom1} alt='glassroom1' />
                 <div className='flex flex-row gap-4 items-center justify-center'>
                   <p className='md:text-[18px] text-[12px]'>View Detail</p>

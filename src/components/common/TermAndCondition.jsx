@@ -18,7 +18,7 @@ const TermAndCondition = () => {
       <div className='flex flex-row items-center justify-center md:gap-4 gap-1'>
         {data.map((item, index) => (
           <p
-            className='md:text-xl text-sm text-[#939393] font-bold'
+            className='md:text-lg text-sm text-[#939393] font-serif'
             key={index + index}
           >
             {item.name}

@@ -16,7 +16,7 @@ const SectionNine = () => {
       <h1 className='md:text-7xl text-4xl font-serif font-semibold text-white text-center'>
         Ready to Begin Your Journey?
       </h1>
-      <p className='md:text-2xl text-xl font-sans text-white text-center'>
+      <p className='md:text-2xl text-xl font-sans text-white text-center w-[80%] md:w-[100%]'>
         Reconnect with nature, with yourself, and with the quiet beauty of the
         Western Ghats.
       </p>
